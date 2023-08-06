@@ -27,7 +27,7 @@ public class AutomaticService extends AccessibilityService {
     public static AutomaticService instance;
     private static String control_package = "";
 
-    private static final int EVENT_TYPE_ACTION_WINDOW = 32;
+    private static final int EVENT_TYPE_ACTION_WINDOW = 31;
     public static final String PACKAGE_NAME = "owres.org.owresassistant";
     public static final String ACCESSIBILITY_ID = PACKAGE_NAME + "/.AutomaticService";
 
